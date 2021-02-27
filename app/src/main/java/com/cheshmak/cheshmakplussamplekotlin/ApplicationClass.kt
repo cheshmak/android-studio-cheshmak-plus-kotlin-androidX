@@ -16,7 +16,7 @@ class ApplicationClass : MultiDexApplication() {
 
         Cheshmak.with(this@ApplicationClass)
         CheshmakPlus.with(this@ApplicationClass)
-        Cheshmak.initTracker("sampleCheshmakKey==", object : CheshmakCallback {
+        Cheshmak.initTracker("7wIVoYj7zVV8GPlsq52oyg==", object : CheshmakCallback {
             override fun onCheshmakIdReceived(cheshmakID: String) {
                 Log.e("----------", "CheshmakID = $cheshmakID")
             }
